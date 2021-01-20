@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Review</h2>
+
+<table>
+  <tr>
+    <th>CSS syntax</th>
+    <th>CSS writing</th>
+    <th>selector</th>
+    <th>combinator</th>
+  </tr>
+  <tr>
+    <td>selector, property value</td>
+    <td>3แบบ Inline Style Sheet,Embed Style Sheet,External Style Sheet
+    <td>3แบบ name, id, class</td>
+    <td>4แบบ descendant selector (space)
+,child selector (>)
+adjacent sibling selector (+)
+,general sibling selector (~)</td>
+  </tr>
+
+  
+</table>
+
+</body>
+</html>
