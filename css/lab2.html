@@ -1,0 +1,73 @@
+Lab2 
+1.<!DOCTYPE html> ใช้เพื่อกำหนดชนิดเอกสาร
+2.ถ้าอยากให้มี tooltipในtagต้องใช้attributeใด ยาวมาก
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+<body style="text-align:center;">
+
+<p>Move the mouse over the text below:</p>
+
+<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>
+3. <b>กับ<strong> <b>ตัวอักษรหนาเน้นความสำคัญ และ<i> <em> ตัวอักษรเอียง 
+ลองรันแล้วยังหาความต่างไม่เจอ ลองใส่สลับหน้าหลังแล้วรันก็เหมือนเดิม
+
+4. CSS 3D transform rotataY Method
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+#myDiv {
+  transform: rotateY(150deg);
+}
+</style>
+</head>
+<body>
+
+<h1>The rotateY() Method</h1>
+<p>The rotateY() method rotates an element around its Y-axis at a given degree.</p>
+
+<div>
+This a normal div element.
+</div>
+
+<div id="myDiv">
+This div element is rotated 150 degrees.
+</div>
+
+<p><b>Note:</b> Internet Explorer 9 (and earlier versions) does not support the rotateY() method.</p>
+
+</body>
+</html>
